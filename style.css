@@ -1,0 +1,93 @@
+.m1{
+    display:flex;
+    background-color: rgb(37, 169, 212);
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    
+    border: 10px solid black;
+    position: fixed;
+    top: 0%;
+    width:90%;
+    
+}
+#balanceShow{
+    display:flex;
+    h4{
+        font-size: 20px;
+    }
+}
+#pol{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    height: 1.5cm;
+    width: 5cm;
+    border: 1px solid black;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+}
+
+.polheading{
+    margin-bottom: 0%;
+}
+#income{
+    color: rgb(7, 180, 50);
+    margin-top: 0%;
+}
+#expence{
+    color: red;
+    margin-top: 0%;
+}
+.c1{
+    align-self: center;
+    
+}
+
+#transitionAdder{
+    display:flex;
+    margin-top: 1%;
+    justify-content: space-between;
+    align-items: baseline;
+    .inputs{
+        height:0.5cm;
+    }
+}
+
+
+#historyBlock{
+    margin-top: 20%;
+    margin-left: 5%;
+    padding-right: 10%;
+}
+parentlist{
+    height: auto;
+    margin: 5%;
+    align-content:center
+
+}
+
+.listItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: aqua;
+    
+    p{  padding-left: 3%;
+        margin-bottom: 1%;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+#rmvbtn{
+    margin: 1%;
+    background-color: red;
+    color: aliceblue;
+    padding: 1%;
+}

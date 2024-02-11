@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expence Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+   
+    <div class = "m1">
+        
+        <h3 id = "heading" style="align-self:center ;">Expence Tracker</h3>
+
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div id = balanceShow>
+            <h4>Your Balance:</h4>
+            <h4 id = "bal">100</h4>
+        </div>
+  
+        <div id = "pol">
+            <div class = "c1"> 
+               <p class = "polheading" >Income</p>
+               <p  id = "income">100 </p>
+            </div>
+            <div class ="c1">
+                <p class = "polheading" ;>Expence</p>
+                <p id = "expence">$0.00</p>
+        </div>
+
+        </div>
+        </div>
+
+        
+    
+        <div id="transitionAdder">
+        <h2>Add New Transition</h2>
+        <p >Text</p>
+        <input class= "inputs"id = "expenceName" style ="width:7.5cm"   type="text" name=”user”/>
+        <p>Amount</p>
+        <input class="inputs" id = "expenceAmt" style ="width:7.5cm" type="number" name=”user”/> 
+        <button id="add_btn">ADD</button>      
+        </div>
+
+    </div>
+
+    <div id="historyBlock">
+        <h2>History</h2>
+        <div style="height: auto; background-color: aliceblue;">
+            <ul id="parentList">
+                <li class = "listItem"> 
+                    <h3>Expence 1</h3>
+                    <p>100</p>
+                    <button id = "rmvbtn" onclick="removeBtn(this)" >Remove</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="code.js"></script>
+</body>
+</html>
